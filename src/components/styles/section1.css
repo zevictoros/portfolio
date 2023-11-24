@@ -1,0 +1,51 @@
+#section1{
+    display: flex;
+}
+
+.section1-left{
+    display: flex;
+    width: 50%;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.section1-left h1{
+    color: #FFF;
+    font-size: 55px;
+}
+
+.section1-left span{
+    color: var(--blue);
+}
+
+.section1-left h4{
+    color: var(--gray);
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.section1-left button{
+    margin-top: 50px;
+    justify-content: center;
+    width: 170px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 8px;
+    align-self: end;
+    transition: 0.5s;
+}
+
+.section1-left button a{
+    color: #FFF;
+}
+
+.section1-left button:hover{
+    background-color: #070777;
+}
+
+.section1-right img{
+    width: 500px;
+    transform: scaleY(-1);
+}

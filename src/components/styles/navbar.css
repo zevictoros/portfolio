@@ -15,8 +15,10 @@ body{
 
 .menu{
     position: fixed;
+    top: 0;
     z-index: 999;
     width: 100vw;
+    height: 100px;
 }
 
 ul{
@@ -42,6 +44,8 @@ a{
     position: relative;
     padding: 14px 16px;
     transition: color 0.3s ease-in-out;
+    text-transform: capitalize;
+    font-size: 22px;
 }
 
 li::after {
@@ -63,4 +67,8 @@ li:hover::after {
 
 li:hover a {
     color: #FFF;
+}
+
+main{
+    margin-top: 100px;
 }
