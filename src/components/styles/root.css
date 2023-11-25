@@ -17,7 +17,7 @@ body {
 #section2,
 #section3,
 #section4,
-#section5{
+#section5 {
     display: flex;
     height: calc(100vh - 100px);
 }
