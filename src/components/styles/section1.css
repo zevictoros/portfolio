@@ -1,32 +1,32 @@
-#section1{
+#section1 {
     display: flex;
+    height: calc(100vh - 100px);
 }
 
-.section1-left{
+.section1-left {
     display: flex;
     width: 50%;
-    height: calc(100vh - 100px);
     justify-content: center;
     margin: auto;
     flex-direction: column;
 }
 
-.section1-left h1{
+.section1-left h1 {
     color: #FFF;
     font-size: 55px;
 }
 
-.section1-left span{
+.section1-left span {
     color: var(--blue);
 }
 
-.section1-left h4{
+.section1-left h4 {
     color: var(--gray);
     font-size: 21px;
     margin-top: 30px;
 }
 
-.section1-left button{
+.section1-left button {
     margin-top: 50px;
     justify-content: center;
     width: 170px;
@@ -37,15 +37,15 @@
     transition: 0.5s;
 }
 
-.section1-left button a{
+.section1-left button a {
     color: #FFF;
 }
 
-.section1-left button:hover{
+.section1-left button:hover {
     background-color: #070777;
+    width: 200px;
 }
 
-.section1-right img{
-    width: 500px;
-    transform: scaleY(-1);
+.section1-right img {
+    height: 100%;
 }

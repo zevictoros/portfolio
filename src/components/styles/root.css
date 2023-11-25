@@ -1,0 +1,14 @@
+:root {
+    --gray: #868C97;
+    --black: #151515;
+    --blue: #130bc2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--black);
+}

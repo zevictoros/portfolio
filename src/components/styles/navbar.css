@@ -1,19 +1,4 @@
-:root{
-    --gray: #868C97;
-    --black: #151515;
-    --blue: #130bc2;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: var(--black);
-}
-
-.menu{
+.menu {
     position: fixed;
     top: 0;
     z-index: 999;
@@ -21,14 +6,15 @@ body{
     height: 100px;
 }
 
-ul{
+ul {
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     background-color: #151514;
 }
-li{
+
+li {
     margin: 15px;
     padding: 12px;
     list-style: none;
@@ -37,7 +23,7 @@ li{
     position: relative;
 }
 
-a{
+a {
     display: block;
     text-decoration: none;
     color: var(--gray);
@@ -69,6 +55,6 @@ li:hover a {
     color: #FFF;
 }
 
-main{
+main {
     margin-top: 100px;
 }
