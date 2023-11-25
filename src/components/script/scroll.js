@@ -3,9 +3,14 @@ document.querySelectorAll('.menu a').forEach(anchor => {
         e.preventDefault();
 
         const target = document.querySelector(this.getAttribute('href'));
-        window.scrollTo({
-            top: target.offsetTop,
-            behavior: 'smooth' // Comportamento de rolagem suave
-        });
+        const headerOffset = 100;
+
+        if (target) {
+            const targetOffset = target.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: targetOffset - headerOffset,
+                behavior: 'smooth'
+            });
+        }
     });
 });
