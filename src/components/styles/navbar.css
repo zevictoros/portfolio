@@ -6,7 +6,7 @@
     height: 100px;
 }
 
-ul {
+.menu ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ ul {
     background-color: #151514;
 }
 
-li {
+.menu li {
     margin: 15px;
     padding: 12px;
     list-style: none;
@@ -23,7 +23,7 @@ li {
     position: relative;
 }
 
-a {
+.menu a {
     display: block;
     text-decoration: none;
     color: var(--gray);
@@ -34,7 +34,7 @@ a {
     font-size: 22px;
 }
 
-li::after {
+.menu li::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -46,12 +46,12 @@ li::after {
     transform: translateX(-50%);
 }
 
-li:hover::after {
+.menu li:hover::after {
     width: calc(100% - 32px);
     transition: width 0.3s ease-in-out;
 }
 
-li:hover a {
+.menu li:hover a {
     color: #FFF;
 }
 

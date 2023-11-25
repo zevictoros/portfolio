@@ -1,0 +1,79 @@
+#section3{
+    background-color: #202020;
+}
+
+.experience {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.experience-name{
+    
+    background-color: var(--black);
+    margin-right: 40px;
+}
+
+.experience-name ul {
+    width: 300px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-name ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 25px;
+    transition: background-color 0.3s ease;
+    padding-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.experience-description {
+    display: none;
+    height: 200px;
+    text-align: justify;
+}
+
+.experience-description:first-child {
+    display: block;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title h2 {
+    color: #FFF;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.title span {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+h4 {
+    color: var(--blue);
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.experience-description span {
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+ul .displayed{
+    color: var(--blue) !important;
+    border-left: 3px solid var(--blue);
+}

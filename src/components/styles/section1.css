@@ -22,6 +22,7 @@
 }
 
 .section1-left button {
+    height: 50px;
     margin-top: 50px;
     justify-content: center;
     width: 170px;
@@ -30,10 +31,13 @@
     border-radius: 8px;
     align-self: end;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .section1-left button a {
     color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .section1-left button:hover {
