@@ -61,8 +61,8 @@
 
 .box {
     border-radius: 8px;
-    padding: 10px;
-    background-color: #AAA;
+    padding: 20px;
+    background-color: #151515;
     border: 2px solid transparent;
     cursor: pointer;
 }
