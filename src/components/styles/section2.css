@@ -65,6 +65,7 @@
     background-color: #151515;
     border: 2px solid transparent;
     cursor: pointer;
+    transition: border 0.7s ease-in-out;
 }
 
 .box:hover {

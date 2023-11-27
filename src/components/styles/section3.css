@@ -1,5 +1,6 @@
 #section3 {
     background-color: #202020;
+    position: relative;
 }
 
 .experience {
@@ -75,4 +76,14 @@ h4 {
 ul .displayed {
     color: var(--blue) !important;
     border-left: 3px solid var(--blue);
+}
+
+.section3-title {
+    color: #FFF;
+    position: absolute;
+    top: 50px;
+}
+
+.section3-title h1 {
+    font-size: 30px;
 }

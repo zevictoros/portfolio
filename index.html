@@ -22,7 +22,7 @@
                     <li><a href="#section1">Início</a></li>
                     <li><a href="#section2">Sobre mim</a></li>
                     <li><a href="#section3">Experiências</a></li>
-                    <li><a href="#section4">Skills</a></li>
+                    <li><a href="#section4">Conhecimentos</a></li>
                     <li><a href="#section5">Contato</a></li>
                 </ul>
             </nav>
@@ -78,6 +78,9 @@
         </div>
         <div id="section3">
             <div class="experience">
+                <div class="section3-title">
+                    <h1>Experiências</h1>
+                </div>
                 <div class="experience-name">
                     <ul>
                         <li class="displayed" onclick="showDescription(0)">Viver Tecnologia</li>
@@ -119,18 +122,34 @@
         <div id="section4">
             <div class="conhecimentos">
                 <div class="section4-left">
-                    <span id="card1" class="span-displayed">*Passe o cursor do mouse no card para ler*</span>
-                    <span id="card2">HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar e 
-                        estruturar conteúdo na web.</span>
-                    <span id="card3">O CSS (Cascading Style Sheets) é uma linguagem de estilo usada para controlar a 
-                        apresentação e o layout de documentos HTML. </span>
-                    <span id="card4">JavaScript é uma linguagem de programação essencial para tornar páginas web interativas. 
-                        Responsável pela dinâmica e funcionalidades, permite interações do usuário e manipulação do conteúdo 
-                        da página em tempo real.</span>
-                    <span id="card5">React é uma biblioteca Javascript com foco em criar interfaces de usuáriode forma componentizada</span>
-                    <span id="card6">Typescript é um superset do Javascript que inclui recursos que não estão presentes na 
-                        linguagem de forma nativa, além de torná-la estática
-                    </span>
+                    <div class="section4-title">
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="cards-container">
+                        <span id="card1" class="span-displayed">*Passe o cursor do mouse no card para ler*</span>
+                        <span id="card2">HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar e
+                            estruturar conteúdo na web.</span>
+                        <span id="card3">O CSS (Cascading Style Sheets) é uma linguagem de estilo usada para controlar a
+                            apresentação e o layout de documentos HTML. </span>
+                        <span id="card4">JavaScript é uma linguagem de programação essencial para tornar páginas web
+                            interativas.
+                            Responsável pela dinâmica e funcionalidades, permite interações do usuário e manipulação do
+                            conteúdo da página em tempo real.</span>
+                        <span id="card5">React é uma biblioteca Javascript com foco em criar interfaces de usuário de
+                            forma componentizada</span>
+                        <span id="card6">Typescript é um superset do Javascript que inclui recursos que não estão
+                            presentes
+                            na linguagem de forma nativa, além de torná-la estática
+                        </span>
+                        <span id="card7">Node.js é um ambiente de execução JavaScript do lado do servidor,
+                            permitindo criar aplicativos web escaláveis e rápidos.
+                        </span>
+                        <span id="card8">MySQL é um sistema popular de banco de dados relacional, usado em muitos
+                            aplicativos
+                            web e empresariais pela sua confiabilidade e desempenho.
+                        </span>
+
+                    </div>
                 </div>
                 <div class="section4-right">
                     <div class="box" onmouseover="changeText('card2')">
@@ -148,9 +167,15 @@
                     <div class="box" onmouseover="changeText('card6')">
                         <img src="src\components\images\languages\typescript.svg" alt="">
                     </div>
+                    <div class="box" onmouseover="changeText('card7')">
+                        <img src="src\components\images\languages\nodejs.svg" alt="">
+                    </div>
+                    <div class="box" onmouseover="changeText('card8')">
+                        <img src="src\components\images\languages\mysql.svg" alt="">
+                    </div>
                 </div>
             </div>
-            
+
         </div>
         <div id="section5">
 
