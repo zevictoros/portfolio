@@ -1,0 +1,140 @@
+#section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.section5-title {
+    display: flex;
+    color: #FFF;
+}
+
+.section5-title h1 {
+    font-size: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.projects .projeto {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    max-width: 400px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.projects .projeto h1 {
+    color: #FFF;
+}
+
+.projects .projeto span {
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.projects .projeto a {
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    /* Adicionando posição relativa */
+    padding: 15px;
+}
+
+/* Efeito de rastro */
+.projects .projeto a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+}
+
+.projects .projeto a::before {
+    top: 100%;
+}
+
+.projects .projeto a:hover::before {
+    width: 50%;
+}
+
+.projects .projeto:nth-child(1) {
+    border: 2px solid #E51D37;
+}
+
+.projects .projeto:nth-child(1) a {
+    color: #E51D37;
+}
+
+.projects .projeto:nth-child(1) a::before {
+    background-color: #E51D37;
+}
+
+.projects .projeto:nth-child(2) {
+    border: 2px solid #00a3ff;
+}
+
+.projects .projeto:nth-child(2) a {
+    color: #00a3ff;
+}
+
+.projects .projeto:nth-child(2) a::before {
+    background-color: #00a3ff;
+}
+
+.projects .projeto:nth-child(3) {
+    border: 2px solid #a6fb98;
+}
+
+.projects .projeto:nth-child(3) a {
+    color: #a6fb98;
+}
+
+.projects .projeto:nth-child(3) a::before {
+    background-color: #a6fb98;
+}
+
+.repositorio {
+    text-align: center;
+}
+
+.repositorio a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--blue);
+    position: relative;
+    /* Adicionando posição relativa */
+    padding: 15px;
+}
+
+/* Efeito de rastro */
+.repositorio a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--blue);
+    transition: width 0.3s ease;
+}
+
+.repositorio a::before {
+    top: 100%;
+}
+
+.repositorio a:hover::before {
+    width: 100%;
+}
