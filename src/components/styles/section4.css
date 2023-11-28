@@ -58,13 +58,7 @@
 }
 
 .section4-title {
-    display: flex;
-    color: #FFF;
     position: absolute;
     top: 50px;
     align-self: start;
-}
-
-.section4-title h1 {
-    font-size: 30px;
 }

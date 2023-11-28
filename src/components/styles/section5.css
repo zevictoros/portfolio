@@ -3,15 +3,11 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    background-color: #202020;
 }
 
 .section5-title {
-    display: flex;
-    color: #FFF;
-}
-
-.section5-title h1 {
-    font-size: 30px;
+    margin-top: 50px;
 }
 
 .projects {
@@ -49,11 +45,9 @@
     text-decoration: none;
     font-size: 16px;
     position: relative;
-    /* Adicionando posição relativa */
     padding: 15px;
 }
 
-/* Efeito de rastro */
 .projects .projeto a::before {
     content: '';
     position: absolute;
@@ -108,6 +102,7 @@
 
 .repositorio {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .repositorio a {
@@ -117,11 +112,9 @@
     font-size: 25px;
     color: var(--blue);
     position: relative;
-    /* Adicionando posição relativa */
     padding: 15px;
 }
 
-/* Efeito de rastro */
 .repositorio a::before {
     content: '';
     position: absolute;

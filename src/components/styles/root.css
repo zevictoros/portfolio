@@ -21,3 +21,16 @@ body {
     display: flex;
     height: calc(100vh - 100px);
 }
+
+.section3-title,
+.section4-title,
+.section5-title {
+    display: flex;
+    color: #FFF;
+}
+
+.section3-title h1,
+.section4-title h1,
+.section5-title h1 {
+    font-size: 40px;
+}

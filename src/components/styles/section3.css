@@ -79,11 +79,6 @@ ul .displayed {
 }
 
 .section3-title {
-    color: #FFF;
     position: absolute;
     top: 50px;
-}
-
-.section3-title h1 {
-    font-size: 30px;
 }

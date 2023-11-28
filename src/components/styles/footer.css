@@ -1,0 +1,41 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.social-links,
+.copyright {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h3,
+.social-links h3,
+.copyright p {
+    margin-bottom: 25px;
+    color: var(--blue);
+}
+
+.social-links a {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--gray);
+}
