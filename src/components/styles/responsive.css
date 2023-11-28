@@ -121,8 +121,8 @@
     }
 
     .section4-right {
-        grid-template-columns: repeat(3, 1fr); /* Manter três colunas */
-        width: calc(100vw - 60px); /* Largura desejada */
+        grid-template-columns: repeat(3, 1fr);
+        width: calc(100vw - 60px);
     }
 
     .section4-right .box {
@@ -135,8 +135,35 @@
         height: 170vh;
     }
     #section3 {
+        justify-content: space-around;
         margin: 0;
         margin-top: 50px;
         height: 120vh;
+    }
+    .experience-name {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .section1-left h1,
+    .section1-left h4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .aboutme {
+        height: 100%;
+    }
+
+    .experience-description .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section4-title{
+        display: flex;
+        align-self: center;
     }
 }
