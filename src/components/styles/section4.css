@@ -30,24 +30,26 @@
 
 .section4-right {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 5px), 1fr));
-    gap: 5px;
-    max-width: calc(33.33% * 3 + 10px * 2);
-    margin-top: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 10px), 1fr)); /* Aproximadamente 1/3 da largura */
+    gap: 10px;
+    max-width: calc(100% - 20px); /* Usar a largura máxima disponível */
+    margin: 15px;
 }
 
 .section4-right img {
     max-width: 100%;
-    height: 60px;
+    height: auto;
 }
 
 .section4-right .box {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15px;
     background-color: #181818;
+    /* Evite definir margens que possam causar problemas no layout responsivo */
+    padding: 15px;
 }
+
 
 .span-displayed {
     display: block;
