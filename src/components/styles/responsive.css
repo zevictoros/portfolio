@@ -106,7 +106,7 @@
     }
 
     #section4 {
-        height: 100vh;
+        height: 80vh;
     }
 
     .conhecimentos{
@@ -114,6 +114,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 100px;
     }
 
     .cards-container {
@@ -153,8 +154,24 @@
 }
 
 @media screen and (max-width: 530px) {
+    .section1-left h1 {
+        font-size: 40px;
+    }
+
+    .title h2 {
+        text-align: center;
+    }
+
     .aboutme {
         height: 100%;
+    }
+
+    .section2-right h3 {
+        font-size: 30px;
+    }
+
+    #section2 {
+        height: 140vh;
     }
 
     .experience-description .title{
@@ -165,5 +182,52 @@
     .section4-title{
         display: flex;
         align-self: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #section2 {
+        margin: 40px;
+    }
+
+    #section3 {
+        height: 135vh;
+    }
+
+    .experience {
+        justify-content: start;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    #section1 {
+        margin: 10px;
+    }
+    #section2 {
+        height: 165vh;
+    }
+
+    .section2-right{
+        justify-content: start;
+    }
+
+    .section2-right span,
+    .section2-right h3,
+    .section2-right h1 {
+        text-align: start;
+    }
+
+    .section2-right h3,
+    .section2-right h1 {
+        font-size: 25px;
+    }
+
+    .links {
+        flex-direction: column;
+        margin: 0;
+    }
+    .links .box{
+        margin: 5px;
     }
 }
