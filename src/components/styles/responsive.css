@@ -7,11 +7,11 @@
     .section1-left {
         width: 100%;
     }
-    
+
     .section1-left h4 {
         margin-top: 20px;
     }
-    
+
     .section1-left button {
         margin-top: 20px;
         align-self: center;
@@ -51,7 +51,7 @@
     }
 
     #section2 {
-        height: 150vh;
+        height: 130vh;
     }
 
     .aboutme {
@@ -80,10 +80,11 @@
     }
 
     .section2-right span,
-    .section2-right h3{
+    .section2-right h3 {
         margin: 20px;
     }
-    .section2-right h1{
+
+    .section2-right h1 {
         margin-top: 40px;
     }
 }
@@ -94,7 +95,13 @@
     }
 
     .section4-right {
-        grid-template-columns: repeat(auto-fit, minmax(calc(50% - 10px), 1fr)); 
+        grid-template-columns: repeat(auto-fit, minmax(calc(50% - 10px), 1fr));
+    }
+}
+
+@media screen and (max-width: 903px) {
+    .menu {
+        display: none;
     }
 }
 
@@ -109,7 +116,7 @@
         height: 80vh;
     }
 
-    .conhecimentos{
+    .conhecimentos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -132,21 +139,24 @@
 }
 
 @media screen and (max-width: 696px) {
-    #section5{
+    #section5 {
         height: 170vh;
     }
+
     #section3 {
         justify-content: space-around;
         margin: 0;
         margin-top: 50px;
         height: 120vh;
     }
+
     .experience-name {
         margin: 0;
     }
 }
 
 @media screen and (max-width: 590px) {
+
     .section1-left h1,
     .section1-left h4 {
         text-align: center;
@@ -171,15 +181,15 @@
     }
 
     #section2 {
-        height: 140vh;
+        height: 120vh;
     }
 
-    .experience-description .title{
+    .experience-description .title {
         display: flex;
         flex-direction: column;
     }
 
-    .section4-title{
+    .section4-title {
         display: flex;
         align-self: center;
     }
@@ -204,11 +214,12 @@
     #section1 {
         margin: 10px;
     }
+
     #section2 {
-        height: 165vh;
+        height: 140vh;
     }
 
-    .section2-right{
+    .section2-right {
         justify-content: start;
     }
 
@@ -227,7 +238,14 @@
         flex-direction: column;
         margin: 0;
     }
-    .links .box{
+
+    .links .box {
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #section2 {
+        height: 153vh;
     }
 }
