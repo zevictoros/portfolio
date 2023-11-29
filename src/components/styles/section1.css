@@ -13,7 +13,7 @@
 }
 
 .section1-left span {
-    color: var(--blue);
+    color: var(--green);
 }
 
 .section1-left h4 {
@@ -27,7 +27,7 @@
     margin-top: 50px;
     justify-content: center;
     width: 170px;
-    background-color: var(--blue);
+    background-color: var(--green);
     border: none;
     border-radius: 8px;
     align-self: end;

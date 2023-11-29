@@ -1,7 +1,8 @@
 :root {
     --gray: #868C97;
     --black: #151515;
-    --blue: #036dfe;
+    --green: #42CBA5;
+    /* azul = 036dfe */
 }
 
 * {

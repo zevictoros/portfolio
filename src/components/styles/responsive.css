@@ -28,6 +28,10 @@
         flex-direction: column;
     }
 
+    #section2 {
+        margin-top: 0;
+    }
+
     #section3 {
         height: 100vh;
     }
@@ -51,7 +55,7 @@
     }
 
     #section2 {
-        height: 120vh;
+        height: 100vh;
     }
 
     .aboutme {
@@ -100,6 +104,12 @@
 }
 
 @media screen and (max-width: 903px) {
+    main {
+        margin-top: 0;
+    }
+    #section1 {
+        align-items: center;
+    }
     .menu {
         display: none;
     }
@@ -108,7 +118,7 @@
 @media screen and (max-width: 730px) {
 
     #section2 {
-        height: 130vh;
+        height: 110vh;
     }
 
     .aboutme {
@@ -146,7 +156,7 @@
 @media screen and (max-width: 696px) {
 
     #section2 {
-        height: 140vh;
+        height: 120vh;
     }
 
     #section5 {
@@ -157,11 +167,11 @@
         justify-content: space-around;
         margin: 0;
         margin-top: 50px;
-        height: 120vh;
+        height: 100vh;
     }
 
     .experience-name {
-        margin: 0;
+        margin: 50px;
     }
 }
 
@@ -171,9 +181,20 @@
     .section1-left h4 {
         text-align: center;
     }
+
+    #section3 {
+        height: 110vh;
+    }
+
+    .experience-name {
+        margin: 20;
+    }
 }
 
 @media screen and (max-width: 530px) {
+    #section1 {
+        height: 70vh;
+    }
     .section1-left h1 {
         font-size: 40px;
     }
@@ -187,7 +208,7 @@
     }
 
     #section2 {
-        height: 140vh;
+        height: 120vh;
     }
 
     .experience-description .title {
@@ -207,7 +228,7 @@
     }
 
     #section3 {
-        height: 135vh;
+        height: 125vh;
     }
 
     .experience {
@@ -217,12 +238,12 @@
 }
 
 @media screen and (max-width: 382px) {
-    #section1 {
+    /* #section1 {
         margin: 10px;
-    }
+    } */
 
     #section2 {
-        height: 170vh;
+        height: 140vh;
     }
 
     .section2-right {
@@ -250,15 +271,12 @@
     }
 
     #section3 {
-        height: 145vh;
+        height: 125vh;
     }
 }
 
 @media screen and (max-width: 345px) {
     #section2 {
-        height: 190vh;
-    }
-    #section3 {
-        height: 155vh;
+        height: 150vh;
     }
 }

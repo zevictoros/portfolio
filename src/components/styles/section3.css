@@ -62,7 +62,7 @@
 }
 
 h4 {
-    color: var(--blue);
+    color: var(--green);
     margin-bottom: 15px;
     font-size: 26px;
     text-transform: capitalize;
@@ -74,8 +74,8 @@ h4 {
 }
 
 ul .displayed {
-    color: var(--blue) !important;
-    border-left: 3px solid var(--blue);
+    color: var(--green) !important;
+    border-left: 3px solid var(--green);
 }
 
 .section3-title {
