@@ -51,12 +51,12 @@
     }
 
     #section2 {
-        height: 130vh;
+        height: 120vh;
     }
 
     .aboutme {
         display: flex;
-        height: 80%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -106,9 +106,14 @@
 }
 
 @media screen and (max-width: 730px) {
+
+    #section2 {
+        height: 130vh;
+    }
+
     .aboutme {
         display: flex;
-        height: 90%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -139,6 +144,11 @@
 }
 
 @media screen and (max-width: 696px) {
+
+    #section2 {
+        height: 140vh;
+    }
+
     #section5 {
         height: 170vh;
     }
@@ -172,16 +182,12 @@
         text-align: center;
     }
 
-    .aboutme {
-        height: 100%;
-    }
-
     .section2-right h3 {
         font-size: 30px;
     }
 
     #section2 {
-        height: 120vh;
+        height: 140vh;
     }
 
     .experience-description .title {
@@ -216,7 +222,7 @@
     }
 
     #section2 {
-        height: 140vh;
+        height: 170vh;
     }
 
     .section2-right {
@@ -242,10 +248,17 @@
     .links .box {
         margin: 5px;
     }
+
+    #section3 {
+        height: 145vh;
+    }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 345px) {
     #section2 {
-        height: 153vh;
+        height: 190vh;
+    }
+    #section3 {
+        height: 155vh;
     }
 }
