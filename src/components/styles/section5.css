@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-color: #202020;
+    background-color: var(--darkgray);
 }
 
 .section5-title {
@@ -33,7 +33,7 @@
 }
 
 .projects .projeto h1 {
-    color: #FFF;
+    color: var(--white);
 }
 
 .projects .projeto span {

@@ -1,5 +1,5 @@
 #section3 {
-    background-color: #202020;
+    background-color: var(--darkgray);
     position: relative;
 }
 
@@ -28,7 +28,7 @@
     padding: 25px;
     transition: background-color 0.3s ease;
     padding-left: 20px;
-    color: #FFF;
+    color: var(--white);
     font-size: 20px;
     text-transform: capitalize;
 }
@@ -51,7 +51,7 @@
 }
 
 .title h2 {
-    color: #FFF;
+    color: var(--white);
     font-size: 30px;
     text-transform: capitalize;
 }

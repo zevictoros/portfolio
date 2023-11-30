@@ -1,5 +1,5 @@
 footer {
-    color: #fff;
+    color: var(--white);
     padding: 20px 0;
     text-align: center;
 }
@@ -31,7 +31,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     transition: color 0.3s ease;
 }
 

@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #151514;
+    background-color: var(--black);
 }
 
 .menu li {
@@ -52,7 +52,7 @@
 }
 
 .menu li:hover a {
-    color: #FFF;
+    color: var(--white);
 }
 
 main {

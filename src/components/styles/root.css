@@ -2,7 +2,8 @@
     --gray: #868C97;
     --black: #151515;
     --green: #42CBA5;
-    /* azul = 036dfe */
+    --white: #fff;
+    --darkgray: #202020;
 }
 
 * {
@@ -27,7 +28,7 @@ body {
 .section4-title,
 .section5-title {
     display: flex;
-    color: #FFF;
+    color: var(--white);
 }
 
 .section3-title h1,
