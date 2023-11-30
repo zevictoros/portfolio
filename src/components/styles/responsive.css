@@ -238,9 +238,9 @@
 }
 
 @media screen and (max-width: 382px) {
-    /* #section1 {
-        margin: 10px;
-    } */
+    .section1-left h1 {
+        font-size: 35px;
+    }
 
     #section2 {
         height: 140vh;
@@ -263,7 +263,7 @@
 
     .links {
         flex-direction: column;
-        margin: 0;
+        margin: auto;
     }
 
     .links .box {

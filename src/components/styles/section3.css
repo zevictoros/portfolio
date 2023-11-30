@@ -82,3 +82,7 @@ ul .displayed {
     position: absolute;
     top: 50px;
 }
+
+.section3-title h1 span {
+    color: var(--green);
+}
