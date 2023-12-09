@@ -11,17 +11,12 @@
     padding: 0;
 }
 
-body {
-    background-color: var(--black);
+html {
+    font-size: 62.5%;
 }
 
-#section1,
-#section2,
-#section3,
-#section4,
-#section5 {
-    display: flex;
-    height: calc(100vh - 100px);
+body {
+    background-color: var(--black);
 }
 
 .section3-title,
@@ -34,5 +29,5 @@ body {
 .section3-title h1,
 .section4-title h1,
 .section5-title h1 {
-    font-size: 40px;
+    font-size: 4em;
 }

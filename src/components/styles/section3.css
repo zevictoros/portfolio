@@ -1,6 +1,10 @@
 #section3 {
+    height: 50vh;
+    max-height: 500px;
+    display: flex;
     background-color: var(--darkgray);
     position: relative;
+    min-height: 450px;
 }
 
 .experience {
@@ -29,7 +33,7 @@
     transition: background-color 0.3s ease;
     padding-left: 20px;
     color: var(--white);
-    font-size: 20px;
+    font-size: 2em;
     text-transform: capitalize;
 }
 
@@ -52,25 +56,26 @@
 
 .title h2 {
     color: var(--white);
-    font-size: 30px;
+    font-size: 3em;
     text-transform: capitalize;
 }
 
 .title span {
     color: var(--gray);
-    font-size: 14px;
+    font-size: 1.4em;
 }
 
 h4 {
     color: var(--green);
     margin-bottom: 15px;
-    font-size: 26px;
+    font-size: 2.6em;
     text-transform: capitalize;
 }
 
 .experience-description span {
     color: var(--gray);
     line-height: 1.6;
+    font-size: 1.8em;
 }
 
 ul .displayed {

@@ -1,5 +1,8 @@
 #section4 {
     position: relative;
+    max-height: 600px;
+    min-height: 500px;
+    display: flex;
 }
 
 .conhecimentos {
@@ -9,6 +12,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
+
 
 .section4-left,
 .section4-right {
@@ -23,7 +27,7 @@
 
 .section4-left span {
     color: var(--gray);
-    font-size: 25px;
+    font-size: 2.5em;
     padding-right: 40px;
     text-align: justify;
 }

@@ -1,14 +1,18 @@
+#section1 {
+    display: flex;
+    margin: 120px auto;
+    justify-content: center;
+}
+
 .section1-left {
     display: flex;
     width: 50%;
-    justify-content: center;
-    margin: auto;
     flex-direction: column;
 }
 
 .section1-left h1 {
     color: var(--white);
-    font-size: 55px;
+    font-size: 5.5em;
 }
 
 .section1-left span {
@@ -17,13 +21,14 @@
 
 .section1-left h4 {
     color: var(--gray);
-    font-size: 21px;
+    font-size: 2.1em;
     margin-top: 30px;
 }
 
 .section1-left button {
     height: 50px;
     margin-top: 50px;
+    margin-right: 20px;
     justify-content: center;
     width: 170px;
     background-color: var(--green);
@@ -37,7 +42,7 @@
 .section1-left button a {
     color: var(--white);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 .section1-left button:hover {
@@ -47,10 +52,10 @@
 
 .section1-right {
     display: flex;
-    align-items: center;
     margin-right: 25px;
 }
 
 .section1-right img {
-    height: 70%;
+    height: 100%;
+    max-height: 500px;
 }
